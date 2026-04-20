@@ -1,0 +1,24 @@
+HOW TO USE TRANSCRYP
+====================
+
+Every time you want to transcribe files, follow these steps:
+
+1. Drop your video or audio file(s) into the "videos/" folder.
+   Supported formats: .mp4, .avi, .mov, .mkv, .wmv, .webm, .mp3, .wav, .m4a, .flac, .aac, .ogg
+
+2. Open a terminal in the project folder.
+   (Right-click the folder -> "Open in Terminal")
+
+3. Run:
+   python transcriber.py
+
+4. Find your transcription(s) in the "output/" folder.
+   Each file will have the same name as the original, with a .txt extension.
+
+
+NOTES
+-----
+- You do NOT need to change any code. Just drop files into "videos/" and run the script.
+- The script processes ALL files in the "videos/" folder at once.
+- If a file has already been transcribed, it will be skipped automatically.
+- The first time you run the script, it downloads the Whisper AI model (~460 MB). This only happens once.
