@@ -11,7 +11,7 @@ Converts videos and audios to text locally using OpenAI's Whisper. Nothing is up
 ```bash
 .\setup.bat
 ```
-3. Wait for it to finish, then **restart your terminal** so the new PATH entries take effect.
+3. Wait for it to finish, then **close VS Code completely and reopen it** so the new PATH entries take effect.
 
 ---
 
