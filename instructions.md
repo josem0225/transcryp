@@ -6,14 +6,22 @@ Converts videos and audios to text locally using OpenAI's Whisper. Nothing is up
 
 ## Setup
 
-1. Open a terminal in the project folder (`cmd` or PowerShell — right-click the folder → "Open in Terminal")
-2. Run:
+**Step 1 — Install Python** (skip if already installed)
+
+Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/)
+During installation, check **"Add Python to PATH"**.
+
+**Step 2 — Run setup**
+
+Open a terminal in the project folder (right-click → "Open in Terminal") and run:
 ```bash
 .\setup.bat
 ```
-3. Wait for it to finish, then **close VS Code completely and reopen it** so the new PATH entries take effect.
+This creates the virtual environment and installs all dependencies.
 
 ---
+run
+.venv\Scripts\activate
 
 ## Usage
 
