@@ -9,10 +9,15 @@ Every time you want to transcribe files, follow these steps:
 2. Open a terminal in the project folder.
    (Right-click the folder -> "Open in Terminal")
 
-3. Run:
+3. Activate the virtual environment:
+   .venv\Scripts\activate
+
+   You should see (.venv) at the start of the terminal line.
+
+4. Run:
    python transcriber.py
 
-4. Find your transcription(s) in the "output/" folder.
+5. Find your transcription(s) in the "output/" folder.
    Each file will have the same name as the original, with a .txt extension.
 
 
